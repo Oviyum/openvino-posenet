@@ -5,7 +5,7 @@
 
 # Instructions
 1. Download and save an image of a human figure, let's call it $IMAGE_PATH
-2. Follow the [Blog Post]() to generate Intermediate Representations.
+2. Follow the [Blog Post](https://medium.com/@oviyum/real-time-human-pose-estimation-on-the-edge-with-movidius-ncs-and-openvino-ac3b13536) to generate Intermediate Representations.
 3. Save/Move Intermediate Representations in the root of the repository.
 4. Run `python3 run_inference.py -m ./model-mobilenet_v1_075.xml -d MYRIAD -i $IMAGE_PATH`
 
